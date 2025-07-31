@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1 >forms</h1>
+    <form >
+    <label for="name">username:</label>
+    <input id="name" type="text" name="name"   placeholder ="username" autofocus size="20">
+    <br><br>
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email"  autoComplete="on" size="20">
+    <br><br>
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" autoComplete="on" size="20" required pattern="[a-z0-9@!]{5}">
+    <br><br>
+    <label for="age">Age:</label>
+    <input id="age" type="number" name="age" autoComplete="on" size="20">
+    <br><br>
+    <label for="address">Address:</label>
+    <textarea name="address" id="address" placeholder="Enter your address" rows="10" cols="30"></textarea>
+    <br><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <br><br>
+    <label for="dob">Date of Birth:</label>
+    <input id="dob" type="date" name="dob" >
+    <br><br>
+    <label for="color">Color:</label>
+    <input id="color" type="color" name="color">
+    <br><br>
+    <label for="range">Range:</label>
+    <input id="range" type="range" name="range" min="0" max="100" >
+    <br><br>
+    <label for="search">Search: </label>
+    <input id="search" type="search" name="search" placeholder="Search...">
+    <br><br>
+    <label for="file">File:</label>
+    <input id="file" type="file" name="file" accept=".jpg, .png, .gif">
+    <br><br>
+    <label for="language">Language:</label>
+    <select name="language" id="language">
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+    </select>
+    <br><br>
+   <label for="">Skills:</label><br>
+   <input type="checkbox" name="skills" value="html">HTML<br>
+   <input type="checkbox" name="skills" value="css">CSS<br>
+   <input type="checkbox" name="skills" value="javascript">JavaScript<br><br>
+   <label for="terms">Accept Terms and Conditions:</label>
+    <input type="checkbox" id="terms" name="terms" required>
+    <br><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+    <br><br>
+    <label for="submit">Submit:</label>
+    <input type="submit" id="submit" name="submit" value="Submit Form">
+    <br><br>
+    <label for="reset">Reset:</label>
+    <input type="reset" id="reset" name="reset" value="Reset Form">
+    <br><br>
+    <label for="button">Button:</label>
+    <input type="button" id="button" name="button" value="Click Me" onclick="alert('Button clicked!')">
+    <br><br>
+    <label for="hidden">Hidden:</label>
+    <input type="hidden" id="hidden" name="hidden" value="This is hidden">
+    <br><br>
+    <label for="image">Image:</label>
+    <input type="image" id="image" name="image" src="./images/Lion.jpeg" alt="Submit Form" width="150" height="150">
+    <br><br>
+    <label for="datetime-local">Date and Time:</label>
+    <input id="datetime-local" type="datetime-local" name="datetime-local">
+    <br><br>
+    <label for="month">Month:</label>
+    <input id="month" type="month" name="month">
+    <br><br>
+    <label for="tel">Telephone:</label>
+    <input id="tel" type="tel" name="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <br><br>
+    <label for="url">URL:</label>
+    <input id="url" type="url" name="url" placeholder="https://example.com" pattern="https?://.+">
+    <br><br>
+    <label for="time">Time:</label>
+    <input id="time" type="time" name="time">
+    <br><br>
+    <label for="week">Week:</label>
+    <input id="week" type="week" name="week">
+    <br><br>
+    <label for="number">Number:</label>
+    <input id="number" type="number" name="number" min="1" max="10" step="1">
+    <br><br>
+    <label for="password-confirm">Confirm Password:</label>
+    <input id="password-confirm" type="password" name="password-confirm" autoComplete="on" size="20" required pattern="[a-z0-9@!]{5}">
+    <br><br>
+    <label for="search2">Search 2: </label>
+    <input id="search2" type="search" name="search2" placeholder="Search...">
+    <br><br>
+    <label for="file2">File 2:</label>
+    <input id="file2" type="file" name="file2" accept=".jpg, .png, .gif">
+    <br><br>
+    <label for="language2">Language 2:</label>
+    <select name="language2" id="language2">
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+    </select>
+    <br><br>
+    <label for="skills2">Skills 2:</label><br>
+    <input type="text">
+    <input type="checkbox" name="skills2" value="html">HTML<br>
+    <input type="checkbox" name="skills2" value="css">CSS<br>
+    <input type="checkbox" name="skills2" value="javascript">JavaScript<br><br>
+    <label for="terms2">Accept Terms and Conditions 2:</label>
+    <input type="checkbox" id="terms2" name="terms2" required>
+    <br><br>
+    <button type="submit">Submit Form 2</button>
+    <button type="reset">Reset Form 2</button>
+
+    <button type="button" onclick="alert('Button 2 clicked!')">Click Me 2</button>
+    <br><br>
+    <label for="submit2">Submit 2:</label>
+    <input type="submit" id="submit2" name="submit2" value="Submit Form 2">
+    <br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d925149.325190091!2d54.044402367964935!3d25.072579579954006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1749621182358!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</form>
+
+</body>
+</html>

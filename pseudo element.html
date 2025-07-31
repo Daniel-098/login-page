@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: aquamarine;
+        }
+        p::first-line {
+            color: red;
+            font-weight: bold;
+        }
+        p::before {
+            content: "Before line: ";
+            color: blue;
+        }
+        p::after {
+            content: " After line.";
+            color: green;
+        }
+        div::selection {
+            background-color: red;
+            color: rgb(22, 30, 67);
+        }
+        
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa impedit, harum facere, aspernatur esse non maxime eveniet ad veritatis eos deleniti a totam ab aliquam aliquid. Voluptatibus optio temporibus veniam!</p>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ipsa magni debitis, sint nobis quae, aliquam amet perspiciatis expedita repellendus enim culpa totam, excepturi laboriosam minus! Temporibus deleniti maxime quidem!
+    </div>
+</body>
+</html>
